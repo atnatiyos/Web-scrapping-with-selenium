@@ -19,7 +19,12 @@ import math
 # print(Hotel_info)
 # print(Room_info)
 
-url = {'addis ababa':"https://room.et/listing?r=60369c6407e629113f685af0"}
+url = {'addis ababa':"https://room.et/listing?r=60369c6407e629113f685af0",
+       'adama':"https://room.et/listing?r=60369e8207e629113f685af4",
+       'gonder':"https://room.et/listing?r=6036a9f507e629113f685b03",
+       'bahirdar':"https://room.et/listing?r=6036a62e07e629113f685af9",
+       'bishoftu':"https://room.et/listing?r=60369d2c07e629113f685af2",
+       'hawassa':"https://room.et/listing?q=hawassa"}
 
 # Set up the WebDriver
 driver = webdriver.Chrome()
